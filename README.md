@@ -6,7 +6,11 @@
 
 ## Setup Environment
 + Our experiments are conducted with LLaMA2-7B/13B/70B, which takes at least 1/2/8 GPUs of 24GB memory each.
-+ Download the data from [here](https://github.com/Ber666/ToolkenGPT) 
++ Download the data from [here](https://github.com/Ber666/ToolkenGPT) (all datasets uploaded)
+
+```bash
+conda create -n TokenLearning python=3.8
+```
 
 ```bash
 pip install -r requirements.txt
