@@ -1,5 +1,4 @@
 # TokenLearning
-# TokenLearning
 **Source code for [Re-Initialization Token Learning for Tool-Augmented Large Language Models](https://arxiv.org/abs/2305.11554)**
 
 ![Figure](assets/image.png)
