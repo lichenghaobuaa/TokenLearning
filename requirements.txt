@@ -1,0 +1,11 @@
+fairscale
+fire
+huggingface-hub
+numpy
+pandas
+torch==2.1.0
+seaborn
+sentencepiece
+sympy
+tqdm
+transformers
