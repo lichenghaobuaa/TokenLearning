@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## GSM8K-XL
 
-### Train
+### Training
 
 ```bash
 python -m torch.distributed.run --nproc_per_node 4 --master_port 1200 train_llama.py --ckpt_dir $PATH_TO_LLAMA --tokenizer_path $LLAMA/tokenizer.model --input_file data/gsm8k-xl/train.json --lr 1e-3 --num_epochs 10
@@ -77,7 +77,7 @@ See `evaluation/eval_vh.ipynb`
 
 ## KAMEL
 ### Train
-+ synthetic data
+synthetic data
 ```bash
 python -m torch.distributed.run --nproc_per_node 2 --master_port 3002 train_llama.py --ckpt_dir $PATH_TO_LLAMA --tokenizer_path $LLAMA_CKPTS/tokenizer.model --dataset kamel --input_file data/kamel/train_clean.json --only_functoken False ---log_every 500 --num_epochs 10
 ```
